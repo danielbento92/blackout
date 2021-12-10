@@ -143,15 +143,11 @@ const prePurchaseSchema = fromSchema
   .concat(valueSchema)
   .concat(prePurchaseProductListSchema);
 
-const shareSchema = fromSchema
-  .concat(productsSchema)
-  .concat(currencySchema)
-  .concat(valueSchema)
-  .concat(
-    yup.object({
-      socialNetwork: yup.string().nullable(),
-    }),
-  );
+const shareSchema = yup.object({
+  method: yup.string().notRequired(),
+  contentType: yup.string().notRequired(),
+  id: yup.string().notRequired(),
+});
 
 const changeScaleSizeGuideSchema = fromSchema
   .concat(productsSchema)

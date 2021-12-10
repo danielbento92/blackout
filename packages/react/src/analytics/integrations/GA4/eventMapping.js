@@ -477,10 +477,9 @@ const getCheckoutStepEditingParametersFromEvent = eventProperties => {
  * @returns {object} Properties formatted for the GA4's share event.
  */
 const getShareParametersFromEvent = eventProperties => ({
-  currency: eventProperties.currency,
-  from: eventProperties.from,
-  items: getProductItemsFromEvent(eventProperties),
-  social_network: eventProperties.socialNetwork,
+  method: eventProperties.method,
+  content_type: eventProperties.contentType,
+  item_id: eventProperties.id,
 });
 
 /**

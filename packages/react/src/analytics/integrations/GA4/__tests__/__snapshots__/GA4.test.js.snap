@@ -617,10 +617,9 @@ Array [
     "event",
     "share",
     Object {
-      "Items": "[{\\"item_category\\":\\"Clothing\\",\\"item_category2\\":\\"Tops\\",\\"item_category3\\":\\"T-shirts\\",\\"currency\\":\\"USD\\",\\"item_brand\\":\\"Just A T-Shirt\\",\\"item_id\\":\\"507f1f77bcf86cd799439011\\",\\"item_name\\":\\"Gareth McConnell Dreamscape T-Shirt\\",\\"item_variant\\":\\"Black\\",\\"quantity\\":1,\\"size_id\\":\\"L\\"}]",
-      "currency": "USD",
-      "from": "PDP",
-      "social_network": "Facebook",
+      "content_type": "image",
+      "item_id": "123456",
+      "method": "Facebook",
     },
   ],
 ]
