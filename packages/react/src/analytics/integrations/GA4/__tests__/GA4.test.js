@@ -109,8 +109,7 @@ describe('GA4 Integration', () => {
           ga4Instance = createGA4Instance(options);
         } catch (e) {
           expect(e.message).toBe(
-            `${MESSAGE_PREFIX}${INIT_ERROR}Custom loading script failed with\n` +
-              "                  following error: Error: Function's return value is not a Promise",
+            `${MESSAGE_PREFIX}${INIT_ERROR}Custom loading script failed with following error: Error: Function's return value is not a Promise`,
           );
         }
       });

@@ -526,7 +526,6 @@ export function getEventProperties(event, data) {
     case InternalEventTypes.PRODUCT_UPDATED.CHANGE_COLOUR:
     case pageTypes.BAG:
     case pageTypes.WISHLIST:
-    case InternalEventTypes.PRODUCT_UPDATED.CHANGE_SIZE:
     case eventTypes.PRODUCT_ADDED_TO_CART:
     case eventTypes.PRODUCT_REMOVED_FROM_CART:
     case eventTypes.PRODUCT_ADDED_TO_WISHLIST:
